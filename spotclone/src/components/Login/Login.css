@@ -5,3 +5,12 @@
 .login > img {
   width: 100%;
 }
+
+.login > a {
+  padding: 20px;
+  border-radius: 99px;
+  background-color: #3194c2;
+  text-decoration: none;
+  font-weight: 700;
+  color: aliceblue;
+}
