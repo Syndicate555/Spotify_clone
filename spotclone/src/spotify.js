@@ -3,3 +3,6 @@ export const authEndpoint = "https://accounts.spotify.com/authorize";
 
 // The user gets redirected to the following link
 const reditectUri = "http://localhost:3000";
+
+// Spotify clinet ID
+const clientId = "3afc8087f81240e8958a196f30264420";
