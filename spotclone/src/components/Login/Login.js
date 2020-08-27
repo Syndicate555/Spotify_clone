@@ -7,7 +7,7 @@ function Login() {
         src="https://getheavy.com/wp-content/uploads/2019/12/spotify2019-830x350.jpg"
         alt=""
       />
-      <a>LOGIN TO SPOTIFY</a>
+      <a href="https://www.spotify.com/cy/">LOGIN TO SPOTIFY</a>
     </div>
   );
 }
