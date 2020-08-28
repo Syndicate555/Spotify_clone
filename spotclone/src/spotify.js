@@ -6,3 +6,11 @@ const reditectUri = "http://localhost:3000";
 
 // Spotify clinet ID
 const clientId = "3afc8087f81240e8958a196f30264420";
+
+const scopes = [
+  "user-read-currently-playing",
+  "user-read-recently-played",
+  "user-read-playback-state",
+  "user-top-read",
+  "user-modify-playback-state",
+];
