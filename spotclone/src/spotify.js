@@ -4,7 +4,7 @@ export const authEndpoint = "https://accounts.spotify.com/authorize";
 // The user gets redirected to the following link
 const redirectUri = "http://localhost:3000";
 
-// Spotify clinet ID
+// Spotify clinet ID - hidden from the client side due to security reasons
 const CLIENT_ID = process.env.REACT_APP_ID;
 const scopes = [
   "user-read-currently-playing",
