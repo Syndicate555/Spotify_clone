@@ -5,8 +5,7 @@ export const authEndpoint = "https://accounts.spotify.com/authorize";
 const redirectUri = "http://localhost:3000";
 
 // Spotify clinet ID
-const clientId = "3afc8087f81240e8958a196f30264420";
-
+const CLIENT_ID = process.env.REACT_APP_ID;
 const scopes = [
   "user-read-currently-playing",
   "user-read-recently-played",
@@ -15,8 +14,6 @@ const scopes = [
   "user-modify-playback-state",
 ];
 
-export const loginUrl = `${authEndpoint}?client_id=${
-  process.env.client_id
-}&redirect_uri=${redirectUri}&scope=${scopes.join(
+export const loginUrl = `${authEndpoint}?client_id=${CLIENT_ID}&redirect_uri=${redirectUri}&scope=${scopes.join(
   "%20"
 )}&response_type=token&show_dialog=true`;
