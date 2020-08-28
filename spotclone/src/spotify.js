@@ -15,6 +15,8 @@ const scopes = [
   "user-modify-playback-state",
 ];
 
-export const accessUrl = `${authEndpoint}?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join(
+export const accessUrl = `${authEndpoint}?client_id=${
+  process.env.client_id
+}&redirect_uri=${redirectUri}&scope=${scopes.join(
   "%20"
 )}&response_type=token&show_dialog=true`;
